@@ -3,21 +3,21 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Borel Nghopong Lontsi · Cybersécurité et réseau · Recherche d’alternance</title>
-<meta name="description" content="Portfolio de Borel Nghopong Lontsi, étudiant en Master 1 Cybersécurité (Nexa Digital School) à la recherche d’une alternance dans le domaine de la cybersécurité et du réseau : parcours, stages, projets techniques, compétences et engagements.">
+<title>Borel Nghopong Lontsi · Consultant junior en cybersécurité · Recherche d’alternance</title>
+<meta name="description" content="Portfolio de Borel Nghopong Lontsi, consultant junior en cybersécurité (Master 1, Nexa Digital School), à la recherche d’une alternance dans le domaine de la cybersécurité et du réseau : parcours, stages, projets techniques, gouvernance, risques et conformité (GRC), compétences et engagements.">
 <meta name="author" content="Borel Nghopong Lontsi">
 <meta name="theme-color" content="#0a0a0b">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="fr_FR">
-<meta property="og:title" content="Borel Nghopong Lontsi · Cybersécurité et réseau · Recherche d’alternance">
-<meta property="og:description" content="Parcours, expériences, projets techniques (CyberShield, EmmaCorp, mini-SIEM) et compétences d’un étudiant en Master 1 Cybersécurité.">
+<meta property="og:title" content="Borel Nghopong Lontsi · Consultant junior en cybersécurité · Recherche d’alternance">
+<meta property="og:description" content="Parcours, expériences, projets techniques (CyberShield, EmmaCorp, Wi-Fi WPA3, audit et investigation) et démarche GRC d’un consultant junior en cybersécurité en recherche d’alternance.">
 <link rel="canonical" href="https://borel-lontsi.github.io/">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23a4452a'/%3E%3Ctext x='32' y='46' font-family='Georgia,serif' font-size='40' font-weight='700' text-anchor='middle' fill='%23fff'%3EB%3C/text%3E%3C/svg%3E">
 <script>
 (function(){try{var t=localStorage.getItem('theme');if(t!=='light'&&t!=='dark'){t='dark'}document.documentElement.setAttribute('data-theme',t)}catch(e){}document.documentElement.classList.add('js')})();
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Person","name":"Borel Nghopong Lontsi","jobTitle":"Étudiant en Master 1 Cybersécurité","email":"borellontsi21@gmail.com","url":"https://borel-lontsi.github.io/","alumniOf":[{"@type":"CollegeOrUniversity","name":"ECE Paris"},{"@type":"EducationalOrganization","name":"Nexa Digital School"}],"knowsAbout":["Cybersécurité","SOC","Détection d'intrusion","Sécurité réseau","Suricata","Wazuh","Active Directory"],"sameAs":["https://github.com/borel-lontsi","https://www.linkedin.com/in/borel-lontsi-2510363a6"]}
+{"@context":"https://schema.org","@type":"Person","name":"Borel Nghopong Lontsi","jobTitle":"Consultant junior en cybersécurité","email":"borellontsi21@gmail.com","url":"https://borel-lontsi.github.io/","alumniOf":[{"@type":"CollegeOrUniversity","name":"ECE Paris"},{"@type":"EducationalOrganization","name":"Nexa Digital School"}],"knowsAbout":["Cybersécurité","GRC (gouvernance, risques et conformité)","RGPD","SOC","Détection d'intrusion","Sécurité réseau","Suricata","Wazuh","Active Directory"],"sameAs":["https://github.com/borel-lontsi","https://www.linkedin.com/in/borel-lontsi-2510363a6"]}
 </script>
 <style>
 :root{
@@ -52,7 +52,6 @@ svg.i{width:1.2em;height:1.2em;fill:none;stroke:currentColor;stroke-width:1.7;st
 h1,h2,h3,h4{font-family:var(--serif);font-weight:700;letter-spacing:-.01em}
 p{margin:0 0 14px}
 
-/* En-tête */
 .site-header{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 92%,transparent);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
 .bar{display:flex;align-items:center;gap:20px;height:64px}
 .brand{display:flex;flex-direction:column;text-decoration:none;line-height:1.15}
@@ -73,7 +72,6 @@ p{margin:0 0 14px}
 
 [hidden]{display:none!important}
 
-/* Boutons */
 .btn{display:inline-flex;align-items:center;gap:9px;padding:11px 20px;border-radius:8px;font:600 15px var(--sans);text-decoration:none;border:1px solid transparent;cursor:pointer;transition:background .2s,border-color .2s,color .2s}
 .btn.primary{background:var(--accent);color:var(--accent-ink)}
 .btn.primary:hover{background:color-mix(in srgb,var(--accent) 88%,#000)}
@@ -89,7 +87,6 @@ p{margin:0 0 14px}
 .badge.pro{color:var(--accent)}
 .badge.live{color:var(--warn)}
 
-/* Accueil */
 .hero{padding:52px 0 72px}
 .hero-grid{display:grid;grid-template-columns:1fr;gap:56px;align-items:center}
 .hero-grid.has-portrait{grid-template-columns:1.2fr .8fr}
@@ -114,7 +111,7 @@ h1{font-size:clamp(2.5rem,6vw,4.2rem);line-height:1.04;margin:0 0 16px;letter-sp
 .quick dd{margin:0;font-weight:600;line-height:1.45}
 .apport{margin-top:76px}
 .apport h2{font-size:clamp(1.5rem,3vw,2rem)}
-.apport-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-bottom:22px}
+.apport-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-bottom:22px}
 .apport-grid article{padding:22px;border:1px solid var(--border);border-radius:12px;background:var(--card);transition:transform .25s,border-color .25s}
 .apport-grid article:hover{transform:translateY(-4px);border-color:color-mix(in srgb,var(--accent) 55%,var(--border))}
 .apport .ic-tile{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;margin-bottom:14px;color:var(--accent);background:color-mix(in srgb,var(--accent) 15%,transparent)}
@@ -123,7 +120,6 @@ h1{font-size:clamp(2.5rem,6vw,4.2rem);line-height:1.04;margin:0 0 16px;letter-sp
 .more{color:var(--accent);font-weight:600;text-decoration:none}
 .more:hover{text-decoration:underline;text-underline-offset:4px}
 
-/* Rubriques (panneaux horizontaux) */
 main{overflow-x:clip}
 .js .panel{display:none}
 .js .panel.is-active{display:block;min-height:72vh}
@@ -139,7 +135,6 @@ main{overflow-x:clip}
 .pager a.btn:hover svg:not(.flip){transform:translateX(3px)}
 .pager a.btn:hover svg.flip{transform:scaleX(-1) translateX(3px)}
 
-/* Sections */
 section{padding:60px 0 76px}
 section.hero{padding:52px 0 72px}
 h2{font-size:clamp(1.8rem,3.6vw,2.5rem);line-height:1.15;margin:0 0 12px;letter-spacing:-.02em}
@@ -147,7 +142,6 @@ h2{font-size:clamp(1.8rem,3.6vw,2.5rem);line-height:1.15;margin:0 0 12px;letter-
 h3{margin:0;font-size:1.18rem;line-height:1.3}
 .card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:24px}
 
-/* À propos */
 .about-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:64px;align-items:start}
 .about-grid p{font-size:1.08rem}
 .brief{margin:0;padding:6px 0 0;border-top:2px solid var(--accent)}
@@ -155,7 +149,6 @@ h3{margin:0;font-size:1.18rem;line-height:1.3}
 .brief dt{font-size:13px;color:var(--muted);margin:0 0 2px}
 .brief dd{margin:0;font-weight:600;line-height:1.45}
 
-/* Parcours */
 .two-col{display:grid;grid-template-columns:1.4fr .6fr;gap:64px;align-items:start}
 .timeline{margin:0;padding:0;list-style:none;border-bottom:1px solid var(--border)}
 .tl{display:grid;grid-template-columns:140px 1fr;column-gap:24px;padding:22px 0;border-top:1px solid var(--border)}
@@ -169,7 +162,6 @@ h3{margin:0;font-size:1.18rem;line-height:1.3}
 .cert strong{display:block;font-size:16px}
 .cert span{color:var(--muted);font-size:15px}
 
-/* Expériences */
 .exps{display:grid;gap:0}
 .exp{padding:32px 0;border-top:1px solid var(--border);background:none;border-radius:0}
 .exp:last-child{border-bottom:1px solid var(--border)}
@@ -185,7 +177,6 @@ ul.list li::before{content:"";position:absolute;left:3px;top:.78em;width:6px;hei
 .tools{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:baseline;margin-top:6px}
 .tools b{font-size:13.5px;color:var(--muted);font-weight:600}
 
-/* Projets */
 .filters{display:flex;flex-wrap:wrap;gap:6px 26px;margin:0 0 30px;border-bottom:1px solid var(--border)}
 .filters button{font:600 15px var(--sans);padding:8px 0 12px;border:0;border-bottom:2px solid transparent;margin-bottom:-1px;background:none;color:var(--muted);cursor:pointer}
 .filters button:hover{color:var(--text)}
@@ -216,7 +207,6 @@ ul.list li::before{content:"";position:absolute;left:3px;top:.78em;width:6px;hei
 .proj .chips{margin-top:auto;padding-top:6px;font-size:13.5px}
 .proj .btn{margin-top:8px;align-self:flex-start}
 
-/* Fiche projet */
 dialog.pd{border:1px solid var(--border);border-radius:14px;background:var(--card);color:var(--text);padding:0;width:min(840px,calc(100vw - 24px));max-height:calc(100vh - 28px);box-shadow:0 30px 80px rgba(20,10,0,.4);overflow:auto}
 dialog.pd::backdrop{background:rgba(30,20,10,.6)}
 .pd-top{position:sticky;top:0;z-index:2;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 24px;background:var(--card);border-bottom:1px solid var(--border)}
@@ -251,7 +241,7 @@ dialog.pd::backdrop{background:rgba(30,20,10,.6)}
 .shots img{display:block;width:100%;height:auto;border-radius:6px;border:1px solid var(--border);background:#fff}
 .shots .md{max-width:560px;margin-inline:auto;width:100%}
 .shots a{display:block}
-/* schémas */
+
 .dg-box{fill:var(--card);stroke:var(--border);stroke-width:1.5}
 .dg-hl{fill:color-mix(in srgb,var(--accent) 12%,var(--card));stroke:var(--accent);stroke-width:1.5}
 .dg-hl2{fill:color-mix(in srgb,var(--accent2) 14%,var(--card));stroke:var(--accent2);stroke-width:1.5}
@@ -263,7 +253,6 @@ dialog.pd::backdrop{background:rgba(30,20,10,.6)}
 .dg-a{fill:var(--muted)}
 .dg-lab{font:600 11px var(--sans);fill:var(--accent)}
 
-/* Associations et intérêts */
 .assoc{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
 .assoc .card{padding:0;overflow:hidden}
 .assoc .art{display:grid;place-items:center;padding:22px;height:215px;background:var(--card2);border-bottom:1px solid var(--border)}
@@ -289,7 +278,6 @@ dialog.pd::backdrop{background:rgba(30,20,10,.6)}
 .interest.big h3{margin:0;font-size:1.05rem}
 .interest.big small{display:block;color:var(--muted);font-size:13.5px;margin-top:3px}
 
-/* Compétences */
 .skills{display:grid;grid-template-columns:repeat(3,1fr);gap:0 48px}
 .skill{padding:22px 0;border-top:1px solid var(--border)}
 .skill h3{margin-bottom:8px;font-size:1.15rem}
@@ -298,7 +286,6 @@ dialog.pd::backdrop{background:rgba(30,20,10,.6)}
 .langs div{flex:1 1 260px}
 .langs strong{font-family:var(--serif);font-size:1.1rem}
 
-/* Projet professionnel */
 .stepper{display:grid;grid-template-columns:repeat(3,1fr);gap:28px 40px;margin:0 0 44px}
 .step{padding-top:16px;border-top:2px solid var(--border)}
 .step.goal{border-top-color:var(--accent)}
@@ -306,12 +293,13 @@ dialog.pd::backdrop{background:rgba(30,20,10,.6)}
 .step b{display:block;font:700 1.15rem var(--serif)}
 .step.goal b{color:var(--accent)}
 .step span{color:var(--muted);font-size:15.5px;display:block;margin-top:4px}
-.pro-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0 40px}
+.pro-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:0 48px}
+.pro-grid .card{margin-bottom:26px}
+.pro-grid .card a.more{display:inline-block;margin-top:10px}
 .pro-grid .card{background:none;border:0;border-top:1px solid var(--border);border-radius:0;padding:20px 0 0}
 .pro-grid .card h3{margin-bottom:8px}
 .pro-grid .card h3 svg{display:none}
 
-/* Contact */
 .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
 .mail-line{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;margin:0 0 22px}
 .mailto{font:700 1.35rem var(--serif);color:var(--accent);text-decoration-thickness:1px;text-underline-offset:5px;word-break:break-all}
@@ -334,7 +322,25 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border);color:var(--muted)
 .foot a{text-decoration:none;color:var(--muted)}
 .foot a:hover{color:var(--accent)}
 
-/* Apparition douce */
+.method{display:grid;grid-template-columns:repeat(4,1fr);gap:20px 32px;margin:0 0 44px}
+.grc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-bottom:44px}
+.grc-col{display:flex;flex-direction:column;padding:26px;border-top:3px solid var(--accent)}
+.grc-col h3{font-size:1.35rem;margin-bottom:6px}
+.grc-col > p.muted{margin:0 0 18px;font-size:15px}
+.grc-list{list-style:none;margin:0 0 20px;padding:0;display:grid;gap:16px}
+.grc-list li{font-size:15.5px;line-height:1.55;color:var(--muted)}
+.grc-list strong{display:block;color:var(--text);font-size:15.5px;margin-bottom:2px}
+.proofs{margin-top:auto;padding-top:16px;border-top:1px solid var(--border);display:flex;flex-wrap:wrap;gap:8px}
+.proofs .lab{flex:1 0 100%;font-size:13px;color:var(--muted)}
+.refs{margin:0 0 44px}
+.refs h3{font-size:1.15rem;margin-bottom:8px}
+.grc-team h3{font-size:1.3rem;margin-bottom:14px}
+.grc-team ul{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(2,1fr);gap:14px 40px}
+.grc-team li{padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:15.5px}
+.grc-team li strong{display:block;color:var(--text)}
+.hash{word-break:break-all}
+.pd-body .tbl-w + .tbl-w{margin-top:16px}
+
 .js [data-reveal]{opacity:0;transition:opacity .7s ease}
 .js [data-reveal].in{opacity:1}
 
@@ -351,6 +357,8 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border);color:var(--muted)
   .hero-grid.has-portrait .portrait{max-width:250px;order:-1}
   .quick{grid-template-columns:repeat(2,1fr);gap:0 28px}
   .apport-grid{grid-template-columns:repeat(2,1fr)}
+  .grc-grid{grid-template-columns:1fr}
+  .method{grid-template-columns:repeat(2,1fr)}
   .skills{grid-template-columns:repeat(2,1fr)}
   .pro-grid{grid-template-columns:1fr;gap:6px}
   .interests{grid-template-columns:repeat(4,1fr)}
@@ -365,6 +373,8 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border);color:var(--muted)
   .quick{grid-template-columns:1fr;margin-top:44px}
   .apport{margin-top:56px}
   .apport-grid{grid-template-columns:1fr}
+  .method{grid-template-columns:1fr}
+  .grc-team ul{grid-template-columns:1fr}
   .skills{grid-template-columns:1fr}
   .interests,.interests.two{grid-template-columns:repeat(2,1fr)}
   .interests.two{grid-template-columns:1fr}
@@ -396,6 +406,95 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border);color:var(--muted)
   .js [data-reveal]{opacity:1!important}
   section{padding:24px 0}
 }
+
+:root{--grain:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 .7 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");--grain-o:.05}
+[data-theme="dark"]{--grain:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .7 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");--grain-o:.045}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:var(--grain-o);background-image:var(--grain)}
+
+h1,h2,h3{text-wrap:balance}
+p,li{text-wrap:pretty}
+.sec-lead{margin-top:6px}
+.about-grid > div > p:first-of-type::first-letter{float:left;margin:6px 12px 0 0;font:700 3.7rem/.82 var(--serif);color:var(--accent)}
+
+.prog{position:absolute;left:0;bottom:-1px;height:2px;width:100%;transform:scaleX(0);transform-origin:left;background:var(--accent);pointer-events:none}
+
+.quick{margin-top:64px;padding:4px 6px;gap:0;border:1px solid var(--border);border-top:2px solid var(--accent);border-radius:12px;background:var(--card)}
+.quick div{padding:16px 22px}
+.quick div+div{border-left:1px solid var(--border)}
+.quick dt{font-size:12px;letter-spacing:.06em;text-transform:uppercase}
+.apport-grid article{padding:24px}
+.apport .ic-tile{border-radius:12px;width:48px;height:48px;border:1px solid color-mix(in srgb,var(--accent) 30%,var(--border))}
+
+.timeline{position:relative;padding-left:34px;border-bottom:0}
+.timeline::before{content:"";position:absolute;left:8px;top:14px;bottom:18px;width:2px;background:var(--border)}
+.tl{position:relative;padding:18px 20px 22px;margin-bottom:12px;border:1px solid transparent;border-top:0;border-radius:12px;transition:background .2s,border-color .2s}
+.tl:hover{background:var(--card);border-color:var(--border)}
+.tl::before{content:"";position:absolute;left:-34px;top:24px;width:18px;height:18px;border-radius:50%;box-sizing:border-box;background:var(--bg);border:3px solid var(--border);z-index:1;transition:border-color .2s}
+.tl:hover::before{border-color:var(--accent)}
+.tl.now::before{background:var(--accent);border-color:var(--accent)}
+.tl .when{align-self:start;padding:3px 11px;border-radius:6px;background:var(--card2);border:1px solid var(--border);font-size:13px;white-space:nowrap;justify-self:start}
+.tl.now .when{background:transparent;border-color:var(--accent);color:var(--accent)}
+.tl h3{font-size:1.28rem}
+.cert{padding:16px 18px;margin-top:12px;border:1px solid var(--border);border-radius:12px;background:var(--card)}
+.aside-h{border-top:0;padding-top:0}
+
+.exps{gap:20px}
+.exp{display:grid;grid-template-columns:58px 1fr;gap:0 22px;position:relative;overflow:hidden;padding:28px 30px 28px 34px;border:1px solid var(--border);border-radius:14px;background:var(--card)}
+.exp:last-child{border-bottom:1px solid var(--border)}
+.exp::before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--c,var(--accent))}
+.exp .logo{display:grid;place-items:center;width:58px;height:58px;border-radius:12px;color:var(--c,var(--accent));background:color-mix(in srgb,var(--c,var(--accent)) 13%,transparent);border:1px solid color-mix(in srgb,var(--c,var(--accent)) 38%,var(--border))}
+.exp .logo svg{width:28px;height:28px}
+.exp-head .when{padding:3px 12px;border-radius:6px;border:1px solid var(--border);background:var(--card2);color:var(--text);font-weight:600;font-size:13px}
+.exp .org{color:var(--c,var(--accent2))}
+
+.thumb.has-img img{transition:transform .5s}
+.proj:hover .thumb.has-img img{transform:scale(1.04)}
+.proj:hover{border-color:color-mix(in srgb,var(--accent) 50%,var(--border))}
+
+.skills{gap:20px}
+.skill{padding:24px;border:1px solid var(--border);border-radius:14px;background:var(--card)}
+.skill h3{margin-bottom:12px}
+.skill:first-child{border-color:color-mix(in srgb,var(--accent) 60%,var(--border));border-top-width:3px}
+.skill:first-child h3{color:var(--accent)}
+.langs{border-top:0;padding-top:0}
+.langs div{padding:18px 22px;border:1px solid var(--border);border-radius:14px;background:var(--card)}
+
+.grc-col{background:var(--card)}
+.method,.stepper{counter-reset:st}
+.method .step,.stepper .step{counter-increment:st;border-top:0;padding:16px 18px 18px;border:1px solid var(--border);border-radius:12px;background:var(--card)}
+.method .step::before,.stepper .step::before{content:counter(st);display:block;margin-bottom:4px;font:italic 700 1.7rem/1 var(--serif);color:var(--accent)}
+.method .step.goal,.stepper .step.goal{border-color:var(--accent)}
+.pro-grid .card{padding:22px 24px;border:1px solid var(--border);border-radius:14px;background:var(--card);margin-bottom:22px}
+.pro-grid{gap:0 24px}
+.brief{padding:6px 18px;border:1px solid var(--border);border-top:2px solid var(--accent);border-radius:12px;background:var(--card)}
+.brief div:last-child{border-bottom:0}
+
+dialog.pd{border-radius:16px}
+dialog.pd[open]{animation:dlg .3s ease-out}
+@keyframes dlg{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+dialog.pd::backdrop{background:rgba(6,6,8,.7)}
+.pd-body .tbl tbody tr:hover td{background:color-mix(in srgb,var(--accent) 5%,transparent)}
+
+@media (max-width:980px){
+  .quick div+div{border-left:0}
+  .quick div:nth-child(even){border-left:1px solid var(--border)}
+  .quick div:nth-child(n+3){border-top:1px solid var(--border)}
+}
+@media (max-width:640px){
+  .quick div{padding:14px 16px}
+  .quick div:nth-child(even){border-left:0}
+  .quick div+div{border-top:1px solid var(--border)}
+  .exp{grid-template-columns:1fr;padding:22px 20px 22px 24px}
+  .exp .logo{margin-bottom:14px}
+  .timeline{padding-left:30px}
+  .tl::before{left:-30px}
+  .tl{padding:16px 14px 18px}
+  .skill{padding:20px}
+  .about-grid > div > p:first-of-type::first-letter{font-size:3.1rem}
+}
+@media print{
+  body::before,.prog{display:none!important}
+}
 </style>
 </head>
 <body>
@@ -403,6 +502,8 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border);color:var(--muted)
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
   <defs>
+    <symbol id="i-wifi" viewBox="0 0 24 24"><path d="M2.500 9a14 14 0 0119 0M5.500 12.500a9.500 9.500 0 0113 0M8.800 16a5 5 0 016.400 0"/><circle cx="12" cy="19.500" r=".8"/></symbol>
+    <symbol id="i-audit" viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4h6v3H9zM9 14l2.500 2.500L15.500 12"/></symbol>
     <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.500"/><path d="M16 16l5 5"/></symbol>
     <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 012-2h9"/></symbol>
     <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11M7.500 11L12 15.500 16.500 11M5 20h14"/></symbol>
@@ -457,6 +558,7 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border);color:var(--muted)
       <a href="#experiences">Expériences</a>
       <a href="#projets">Projets</a>
       <a href="#competences">Compétences</a>
+      <a href="#grc">GRC</a>
       <a href="#projet-pro">Projet pro</a>
       <a href="#engagements">Associations</a>
       <a href="#contact">Contact</a>
@@ -465,6 +567,7 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border);color:var(--muted)
       <svg class="i theme-ic-moon"><use href="#i-moon"/></svg><svg class="i theme-ic-sun"><use href="#i-sun"/></svg>
     </button>
   </div>
+  <div class="prog" id="prog" aria-hidden="true"></div>
 </header>
 
 <div class="sr" id="live" aria-live="polite"></div>
@@ -477,15 +580,15 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border);color:var(--muted)
       <div data-reveal>
         <p class="hello">Bonjour, je m’appelle</p>
         <h1>Borel Nghopong Lontsi</h1>
-        <p class="role">Étudiant en Master 1 Cybersécurité</p>
+        <p class="role">Consultant junior en cybersécurité</p>
         <p class="role-2">Je recherche une alternance dans le domaine de la cybersécurité et du réseau</p>
         <p class="lead">Ce qui me plaît, c’est le côté défensif : surveiller un réseau, comprendre une alerte, réagir quand quelque chose cloche. J’ai commencé mes études à Douala, au Cameroun, et je les poursuis en France. Faites un tour : vous y trouverez mon parcours, mes stages, mes projets, et aussi un peu de ce qui me ressemble en dehors du travail.</p>
         <div class="cta">
           <a class="btn primary" href="#contact"><svg class="i"><use href="#i-mail"/></svg> Me contacter</a>
           <a class="btn ghost" href="#projets">Voir mes projets <svg class="i"><use href="#i-arrow"/></svg></a>
-          <a class="btn ghost cv-btn" href="cv-borel-lontsi.pdf" download hidden><svg class="i"><use href="#i-download"/></svg> Télécharger mon CV</a>
+          <a class="btn ghost cv-btn" href="cv-borel-lontsi.pdf" download="CV_Borel_Nghopong_Lontsi.pdf" hidden><svg class="i"><use href="#i-download"/></svg> Télécharger mon CV</a>
         </div>
-        <p class="avail"><span class="dot" aria-hidden="true"></span>Disponible immédiatement · Mobile, prêt à me déplacer peu importe la ville</p>
+        <p class="avail"><span class="dot" aria-hidden="true"></span>Disponible immédiatement · Mobile et véhiculé, prêt à me déplacer peu importe la ville</p>
         <div class="social">
           <a class="icon-btn" href="https://www.linkedin.com/in/borel-lontsi-2510363a6" target="_blank" rel="noopener noreferrer" aria-label="Mon profil LinkedIn"><svg class="i"><use href="#i-link"/></svg></a>
           <a class="icon-btn" href="https://github.com/borel-lontsi" target="_blank" rel="noopener noreferrer" aria-label="Mon profil GitHub"><svg class="i"><use href="#i-code"/></svg></a>
@@ -498,20 +601,22 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border);color:var(--muted)
     <dl class="quick" data-reveal>
       <div><dt>Formation</dt><dd>Master 1 Cybersécurité, Nexa Digital School</dd></div>
       <div><dt>Rythme</dt><dd>3 semaines en entreprise et 1 en cours, ou 2 et 1</dd></div>
-      <div><dt>Mobilité</dt><dd>Prêt à me déplacer, peu importe la ville</dd></div>
+      <div><dt>Mobilité</dt><dd>Prêt à me déplacer, peu importe la ville. Permis et voiture</dd></div>
       <div><dt>Prochaine étape</dt><dd>Certification CCNA, examen prévu début 2027</dd></div>
     </dl>
 
     <div class="apport" data-reveal>
       <h2>Ce que je peux apporter à une équipe</h2>
-      <p class="sec-lead">Pas de grandes promesses : voici ce que j’ai déjà fait, en stage ou dans mes projets.</p>
+      <p class="sec-lead">Voici ce que j’ai déjà fait, en stage ou dans mes projets.</p>
       <div class="apport-grid">
-        <article><span class="ic-tile"><svg class="i"><use href="#i-radar"/></svg></span><h3>Surveiller et comprendre une alerte</h3><p>J’ai monté un mini-SIEM avec Wazuh et Suricata, et analysé du trafic avec Wireshark pour repérer des anomalies.</p></article>
-        <article><span class="ic-tile"><svg class="i"><use href="#i-lock"/></svg></span><h3>Sécuriser les accès</h3><p>Gestion de comptes et de droits en stage, administration d’Active Directory dans mon projet fil rouge, VPN et pare-feu dans le laboratoire EmmaCorp.</p></article>
-        <article><span class="ic-tile"><svg class="i"><use href="#i-server"/></svg></span><h3>Durcir postes et serveurs</h3><p>Installation et durcissement de postes Windows et Linux, application de correctifs, recommandations OWASP sur un site e-commerce.</p></article>
-        <article><span class="ic-tile"><svg class="i"><use href="#i-book"/></svg></span><h3>Documenter ce que je fais</h3><p>Documentation technique des configurations, procédures pour les équipes et rapport de soutenance détaillé pour CyberShield.</p></article>
+        <article><span class="ic-tile"><svg class="i"><use href="#i-radar"/></svg></span><h3>Surveiller et comprendre une alerte</h3><p>J’ai monté un mini-SIEM avec Wazuh et Suricata, écrit des règles de détection et analysé du trafic avec Wireshark pour repérer des anomalies.</p></article>
+        <article><span class="ic-tile"><svg class="i"><use href="#i-audit"/></svg></span><h3>Enquêter après un incident</h3><p>À partir d’un journal d’authentification, j’ai reconstitué une intrusion : force brute, compte compromis, compte caché, persistance. Preuve scellée par empreinte SHA-256, indicateurs relevés, correctifs priorisés.</p></article>
+        <article><span class="ic-tile"><svg class="i"><use href="#i-lock"/></svg></span><h3>Sécuriser les accès</h3><p>Gestion de comptes et de droits en stage, administration d’Active Directory dans mon projet fil rouge, rôles séparés dans CyberShield, VPN et pare-feu dans le laboratoire EmmaCorp.</p></article>
+        <article><span class="ic-tile"><svg class="i"><use href="#i-server"/></svg></span><h3>Durcir et auditer</h3><p>Durcissement de postes Windows et Linux, application de correctifs, audit Lynis d’un serveur avec plan de correction, recommandations OWASP sur un site e-commerce.</p></article>
+        <article><span class="ic-tile"><svg class="i"><use href="#i-target"/></svg></span><h3>Gérer risques et conformité</h3><p>Analyse de menaces rattachée au Top 10 OWASP, règles RGPD appliquées sur un site e-commerce, constats priorisés, et limites assumées dans chaque rapport.</p></article>
+        <article><span class="ic-tile"><svg class="i"><use href="#i-book"/></svg></span><h3>Documenter et prouver</h3><p>Documentation technique, procédures, rapports de préconisations : chaque étape est vérifiée et appuyée par une capture ou une empreinte.</p></article>
       </div>
-      <a class="more" href="#projets">Voir les projets en détail →</a>
+      <a class="more" href="#grc">Ma démarche GRC →</a> &nbsp;&nbsp; <a class="more" href="#projets">Voir les projets en détail →</a>
     </div>
   </div>
 </section>
@@ -523,8 +628,8 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border);color:var(--muted)
     <div class="about-grid">
       <div data-reveal>
         <p>Je m’appelle Borel. J’ai commencé mes études à Douala, au Cameroun, avec un BTS en gestion des systèmes informatiques. Je les ai poursuivies en France : une licence en administration et sécurité des réseaux, un Bachelor à l’ECE Paris, et aujourd’hui un Master 1 Cybersécurité à Nexa Digital School.</p>
-        <p>Ce qui m’attire dans la cybersécurité, c’est la défense : repérer une activité anormale dans des journaux, surveiller un réseau, sécuriser des systèmes et des accès. Mes trois stages, à Paris et au Cameroun, m’ont donné un premier aperçu du métier, dans l’immobilier, la distribution et l’énergie. Pour continuer à pratiquer, je monte mes propres projets : une API sécurisée, un laboratoire de sécurité réseau, un mini-SIEM.</p>
-        <p>Je recherche une alternance dans le domaine de la cybersécurité et du réseau, au rythme de trois semaines en entreprise et une semaine en cours. Deux semaines en entreprise pour une semaine en cours me conviennent aussi. Je suis mobile : peu importe la ville, je suis prêt à me déplacer, et je peux commencer tout de suite.</p>
+        <p>Ce qui m’attire dans la cybersécurité, c’est la défense : repérer une activité anormale dans des journaux, surveiller un réseau, sécuriser des systèmes et des accès. J’aime tout autant le versant gouvernance, risques et conformité : cartographier les menaces, appliquer le RGPD, documenter, puis prouver que les mesures fonctionnent. Mes trois stages, à Paris et au Cameroun, m’ont donné un premier aperçu du métier, dans l’immobilier, la distribution et l’énergie. Pour continuer à pratiquer, je monte mes propres projets : une API sécurisée, un laboratoire de sécurité réseau, un mini-SIEM.</p>
+        <p>Je recherche une alternance dans le domaine de la cybersécurité et du réseau, au rythme de trois semaines en entreprise et une semaine en cours. Deux semaines en entreprise pour une semaine en cours me conviennent aussi. Je suis mobile : peu importe la ville, je suis prêt à me déplacer, et je peux commencer tout de suite. J’ai le permis et ma propre voiture, donc je peux me rendre sans difficulté sur mon lieu de travail.</p>
         <p>En dehors des écrans, j’aime cuisiner, lire, voyager et rouler à moto, et je m’intéresse aux vieilles technologies. Je m’investis aussi dans la solidarité : j’ai aidé aux Restos du Cœur et, avec des amis, je distribue encore des vêtements dans la rue en hiver.</p>
         <p><a class="more" href="#engagements">Mes associations et mes centres d’intérêt →</a></p>
       </div>
@@ -532,7 +637,7 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border);color:var(--muted)
         <div><dt>Formation actuelle</dt><dd>Master 1 Cybersécurité, Nexa Digital School</dd></div>
         <div><dt>Je recherche</dt><dd>Une alternance dans le domaine de la cybersécurité et du réseau</dd></div>
         <div><dt>Rythme</dt><dd>3 semaines en entreprise et 1 semaine en cours, ou 2 semaines en entreprise et 1 semaine en cours</dd></div>
-        <div><dt>Mobilité</dt><dd>Prêt à me déplacer, peu importe la ville</dd></div>
+        <div><dt>Mobilité</dt><dd>Prêt à me déplacer, peu importe la ville. Titulaire du permis de conduire et véhiculé</dd></div>
         <div><dt>Disponibilité</dt><dd>Immédiate</dd></div>
         <div><dt>Langues</dt><dd>Français (langue maternelle), anglais (documentation technique, veille)</dd></div>
         <div><dt>Certification en préparation</dt><dd>CCNA (Cisco), examen prévu début 2027</dd></div>
@@ -639,11 +744,11 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border);color:var(--muted)
 <section id="projets" class="panel" data-title="Projets">
   <div class="container">
     <h2>Projets scolaires et professionnels</h2>
-    <p class="sec-lead">Sept projets, menés à l’école ou en stage. Chacun a sa fiche : le contexte, ce que j’ai fait, les résultats et les outils. Cliquez sur « Voir le détail » pour l’ouvrir, ou cherchez directement un outil.</p>
+    <p class="sec-lead">Neuf projets, menés à l’école ou en stage. Chacun a sa fiche : le contexte, ce que j’ai fait, les résultats et les outils. Cliquez sur « Voir le détail » pour l’ouvrir, ou cherchez directement un outil.</p>
     <div class="proj-tools">
       <div class="filters" role="group" aria-label="Filtrer les projets">
-        <button type="button" data-filter="all" aria-pressed="true">Tous <span class="n">7</span></button>
-        <button type="button" data-filter="scolaire" aria-pressed="false">Scolaires <span class="n">4</span></button>
+        <button type="button" data-filter="all" aria-pressed="true">Tous <span class="n">9</span></button>
+        <button type="button" data-filter="scolaire" aria-pressed="false">Scolaires <span class="n">6</span></button>
         <button type="button" data-filter="professionnel" aria-pressed="false">Professionnels <span class="n">3</span></button>
       </div>
       <label class="search"><span class="sr">Rechercher un outil ou un sujet dans les projets</span><svg class="i"><use href="#i-search"/></svg><input type="search" id="psearch" placeholder="Chercher : Wazuh, Docker, VPN…" autocomplete="off"></label>
@@ -828,10 +933,206 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border);color:var(--muted)
             </svg>
             <figcaption>Schéma simplifié du laboratoire</figcaption>
           </figure>
+          <h4>Séance 5 : protections et détection</h4>
+          <p>Pour la séance 5 (29 septembre 2026), j’ai renforcé la passerelle du laboratoire contre trois risques, puis installé une alarme pour savoir si quelqu’un essaie malgré tout. Le principe retenu : bloquer <em>et</em> détecter, avec la méthode du cours, « je configure, je teste, je prouve ».</p>
+          <div class="kf">
+            <div><b>4 / 0</b><span>règles Suricata chargées / en échec</span></div>
+            <div><b>20 / s</b><span>nouvelles connexions maximum par source</span></div>
+            <div><b>199</b><span>ports filtrés sur 200 sondés (seul le 80 est visible)</span></div>
+            <div><b>3</b><span>alertes levées pendant le scan</span></div>
+          </div>
+          <div class="tbl-w">
+            <table class="tbl">
+              <thead><tr><th>Menace</th><th>Protection mise en place</th><th>Vérification et preuve</th></tr></thead>
+              <tbody>
+                <tr><td>Saturation (SYN flood)</td><td>SYN cookies dans le noyau ; limite de 20 nouvelles connexions par seconde et par source dans le pare-feu (rafale de 40), avec journalisation</td><td>Relecture des réglages du noyau, recherche de la règle dans le pare-feu chargé</td></tr>
+                <tr><td>Usurpation d’adresse IP</td><td>Filtre anti-usurpation <code>rp_filter</code> activé</td><td>Relecture des réglages : défaut détecté puis corrigé</td></tr>
+                <tr><td>Usurpation ARP</td><td>Entrée ARP permanente pour la passerelle, après vérification de son adresse matérielle</td><td>État passé de STALE à PERMANENT</td></tr>
+                <tr><td>Repérage (scan de ports)</td><td>Suricata avec 4 règles chargées, dont une détection de scan ; pare-feu qui ne laisse voir que le port 80</td><td>Scan Nmap réel depuis le poste client, puis lecture du journal d’alertes</td></tr>
+                <tr><td>Accès SSH non autorisé</td><td>Règle Suricata qui alerte sur tout accès SSH hors du poste d’administration</td><td>Alertes relevées pendant le scan</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h4>Ce que les tests ont révélé</h4>
+          <ul class="list">
+            <li>Un réglage incomplet : après activation, la relecture montrait <code>default.rp_filter</code> à 0. Corrigé, puis revérifié.</li>
+            <li>Un Suricata déjà en marche avec sa configuration par défaut, sans nos règles : arrêté proprement, puis relancé sur la bonne interface avec le fichier de règles du TP, pour que la preuve ait une valeur.</li>
+            <li>Un premier scan lancé depuis la passerelle elle-même n’a produit aucune alerte, car ce trafic ne passait pas par l’interface écoutée. Relancé depuis le poste client, il a déclenché les alertes.</li>
+          </ul>
+
+          <h4>Ce que j’en retiens</h4>
+          <p>Une alerte n’est pas un blocage : le pare-feu bloque en silence, Suricata prévient, et les deux se complètent. La règle qui surveille un flux de la DMZ vers le réseau interne fait en apparence double emploi avec le pare-feu, mais elle transforme un blocage invisible en information : un serveur de la DMZ qui tente de joindre le réseau interne est peut-être compromis.</p>
+          <p>Limite assumée : les réglages du noyau et l’entrée ARP faits en ligne de commande sont perdus au redémarrage. Ce n’était pas demandé, mais il faudrait les rendre durables en production.</p>
+
+          <h4>Captures d’écran</h4>
+          <p>Extraites de mon rapport de TP. Un clic ouvre l’image en grand.</p>
+          <div class="shots">
+            <figure><a href="emmacorp-protections-noyau.webp" target="_blank" rel="noopener"><img src="emmacorp-protections-noyau.webp" width="1104" height="157" loading="lazy" decoding="async" alt="Terminal : tcp_syncookies, all.rp_filter et default.rp_filter valent 1 après correction"></a><figcaption>Les trois protections du noyau sont actives</figcaption></figure>
+            <figure><a href="emmacorp-arp-statique.webp" target="_blank" rel="noopener"><img src="emmacorp-arp-statique.webp" width="1111" height="369" loading="lazy" decoding="async" alt="Terminal : l’entrée ARP de la passerelle passe de STALE à PERMANENT"></a><figcaption>Entrée ARP de la passerelle figée : de STALE à PERMANENT</figcaption></figure>
+            <figure><a href="emmacorp-alertes-suricata.webp" target="_blank" rel="noopener"><img src="emmacorp-alertes-suricata.webp" width="1109" height="179" loading="lazy" decoding="async" alt="Journal fast.log de Suricata : alertes sur un accès SSH hors poste d’administration et sur un scan TCP SYN horizontal"></a><figcaption>Alertes Suricata déclenchées par le scan Nmap depuis le poste client</figcaption></figure>
+          </div>
+
           <h4>Résultat</h4>
           <p class="res">Attaques simulées détectées par Suricata, preuves documentées dans un rapport de préconisations.</p>
           <h4>Outils</h4>
           <ul class="chips"><li>nftables</li><li>OpenVPN</li><li>IPsec</li><li>hostapd</li><li>Suricata</li><li>Nmap</li><li>tshark</li><li>Vagrant</li><li>VirtualBox</li><li>Debian</li></ul>
+        </div>
+      </article>
+
+      <article class="card proj" data-type="scolaire" style="--h:178" data-reveal>
+        <div class="thumb" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-wifi"/></svg></div>
+        <div class="proj-body">
+          <div class="proj-meta"><span class="badge scol">Projet scolaire</span><span class="yr">2026</span></div>
+          <h3>Sécurisation d’un réseau Wi-Fi, WPA2 puis WPA3</h3>
+          <p class="sub">TP4 · Master 1 · Nexa Digital School</p>
+          <p class="d">Protéger le Wi-Fi d’une entreprise fictive avec deux normes successives, puis démontrer par des captures que chaque protection est réellement active.</p>
+          <ul class="chips"><li>hostapd</li><li>wpa_supplicant</li><li>WPA2</li><li>WPA3-SAE</li><li>PMF</li></ul>
+          <button class="btn ghost sm" type="button" data-open="p-wifi" data-title="Sécurisation d’un réseau Wi-Fi, WPA2 puis WPA3">Voir le détail <svg class="i"><use href="#i-arrow"/></svg></button>
+        </div>
+        <div hidden id="p-wifi">
+          <h4>Contexte</h4>
+          <p>TP4 du module Sécurité réseaux (Master 1, Nexa Digital School, 29 septembre 2026), dans le laboratoire de l’entreprise fictive EmmaCorp. Aucun matériel Wi-Fi réel : tout fonctionne sur des machines virtuelles, avec deux radios simulées sur la passerelle. La première joue la borne (le point d’accès), la seconde joue l’appareil qui se connecte.</p>
+          <h4>Les risques visés</h4>
+          <ul class="list">
+            <li><strong>L’écoute</strong> des échanges par une personne à portée : réponse, le chiffrement.</li>
+            <li><strong>La déconnexion forcée</strong> d’un appareil par de faux messages de gestion : réponse, la protection des messages de gestion (PMF).</li>
+            <li><strong>Le vol du mot de passe</strong>, enregistré puis testé hors ligne : réponse, WPA3 et sa méthode de connexion SAE.</li>
+            <li><strong>Un appareil piraté</strong> qui attaque les autres : réponse, l’isolation des appareils entre eux.</li>
+          </ul>
+          <p>Cacher le nom du réseau ou filtrer les appareils par leur adresse n’ont pas été retenus : ces informations se contournent facilement, ce ne sont pas de vraies protections.</p>
+          <h4>Ce que j’ai configuré</h4>
+          <div class="tbl-w">
+            <table class="tbl">
+              <thead><tr><th>Réglage</th><th>WPA2</th><th>WPA3</th></tr></thead>
+              <tbody>
+                <tr><td>Nom du réseau</td><td>EMMA-LAB</td><td>EMMA-LAB-WPA3</td></tr>
+                <tr><td>Méthode de connexion</td><td>Mot de passe partagé (WPA-PSK)</td><td>SAE, plus robuste</td></tr>
+                <tr><td>Protection contre les fausses déconnexions (PMF)</td><td>Activée</td><td>Obligatoire</td></tr>
+                <tr><td>Isolation des appareils</td><td>Oui</td><td>Oui</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>La protection contre les fausses déconnexions est seulement activée en WPA2 (on peut encore la contourner), alors qu’elle est obligatoire en WPA3 : c’est l’une des raisons pour lesquelles WPA3 est plus sûr. J’ai aussi installé <code>wpa_supplicant</code>, absent de la passerelle, pour que l’appareil puisse se connecter.</p>
+          <h4>Une difficulté, diagnostiquée puis corrigée</h4>
+          <p>Au premier essai, l’appareil restait « Not connected ». Plutôt que de tout reconfigurer, j’ai cherché où se situait le problème : une recherche de réseaux depuis l’appareil montrait la borne avec un signal très fort (−30 dBm). La partie radio n’était donc pas en cause. Après un redémarrage propre du logiciel de connexion, la connexion a abouti. J’ai volontairement gardé cet échec dans le rapport : le cours demande de tester aussi ce qui ne marche pas, puis de comprendre pourquoi.</p>
+          <h4>Menace, protection, preuve</h4>
+          <div class="tbl-w">
+            <table class="tbl">
+              <thead><tr><th>Menace</th><th>Protection</th><th>Preuve</th></tr></thead>
+              <tbody>
+                <tr><td>Écoute des échanges</td><td>Chiffrement WPA2 et WPA3</td><td>Connexions établies sur des réseaux chiffrés</td></tr>
+                <tr><td>Déconnexion forcée</td><td>PMF activée en WPA2, obligatoire en WPA3</td><td>Lignes <code>ieee80211w=1</code> et <code>ieee80211w=2</code> des fichiers de réglages</td></tr>
+                <tr><td>Vol du mot de passe, essais hors ligne</td><td>WPA3 (SAE)</td><td>Connexion WPA3 et ligne <code>wpa_key_mgmt=SAE</code></td></tr>
+                <tr><td>Appareil piraté qui attaque les autres</td><td>Isolation des appareils</td><td>Ligne <code>ap_isolate=1</code></td></tr>
+              </tbody>
+            </table>
+          </div>
+          <h4>Limites assumées</h4>
+          <ul class="list">
+            <li>Tout se passe sur un seul ordinateur virtuel, avec des radios simulées : les réglages sont ceux de la réalité, pas les conditions radio (distance, obstacles, autres réseaux).</li>
+            <li>L’isolation des appareils est prouvée par la configuration, mais son effet n’a pas été testé, car il aurait fallu un deuxième appareil connecté.</li>
+            <li>Le mot de passe de laboratoire est volontairement simple. En entreprise, il faudrait un mot de passe long et unique, voire une authentification individuelle par employé (WPA3-Entreprise).</li>
+          </ul>
+          <h4>Captures d’écran</h4>
+          <p>Extraites de mon rapport de TP. Le mot de passe n’y est volontairement pas affiché. Un clic ouvre l’image en grand.</p>
+          <div class="shots">
+            <figure><a href="wifi-wpa3-connexion.webp" target="_blank" rel="noopener"><img src="wifi-wpa3-connexion.webp" width="1083" height="624" loading="lazy" decoding="async" alt="Terminal : démarrage de la borne WPA3 puis connexion de l’appareil au réseau EMMA-LAB-WPA3"></a><figcaption>Borne WPA3 démarrée, puis appareil connecté à EMMA-LAB-WPA3</figcaption></figure>
+            <figure><a href="wifi-reglages-securite.webp" target="_blank" rel="noopener"><img src="wifi-reglages-securite.webp" width="1116" height="195" loading="lazy" decoding="async" alt="Extrait des deux fichiers de réglages : ieee80211w, ap_isolate et wpa_key_mgmt pour WPA2 et WPA3"></a><figcaption>Les réglages de sécurité des deux bornes, en clair</figcaption></figure>
+          </div>
+          <h4>Résultat</h4>
+          <p class="res">Wi-Fi chiffré en WPA2 puis en WPA3, fausses déconnexions neutralisées, appareil connecté dans les deux cas, chaque étape prouvée par une capture.</p>
+          <h4>Outils</h4>
+          <ul class="chips"><li>hostapd</li><li>wpa_supplicant</li><li>WPA2</li><li>WPA3-SAE</li><li>PMF</li><li>Vagrant</li><li>VirtualBox</li><li>Debian</li></ul>
+        </div>
+      </article>
+
+      <article class="card proj" data-type="scolaire" style="--h:95" data-reveal>
+        <div class="thumb" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-audit"/></svg></div>
+        <div class="proj-body">
+          <div class="proj-meta"><span class="badge scol">Projet scolaire</span><span class="yr">2026</span></div>
+          <h3>Journalisation, audit et investigation d’une intrusion SSH</h3>
+          <p class="sub">TP3 · Administration Linux et durcissement · Master 1 · Nexa Digital School</p>
+          <p class="d">Centraliser les journaux d’un serveur, surveiller un fichier sensible, puis reconstituer une intrusion à partir d’un journal fourni, avec une preuve scellée et un plan de correction priorisé.</p>
+          <ul class="chips"><li>rsyslog</li><li>auditd</li><li>Lynis</li><li>nftables</li><li>SHA-256</li></ul>
+          <button class="btn ghost sm" type="button" data-open="p-audit" data-title="Journalisation, audit et investigation d’une intrusion SSH">Voir le détail <svg class="i"><use href="#i-arrow"/></svg></button>
+        </div>
+        <div hidden id="p-audit">
+          <h4>Contexte</h4>
+          <p>TP3 du module Administration Linux et durcissement (Master 1, Nexa Digital School). Deux machines Debian sous Vagrant : <code>web01</code>, le serveur audité, déjà durci lors des TP précédents, et <code>web02</code>, la machine qui sert aux tests de connexion et à l’envoi des journaux.</p>
+          <p>L’image fournie tournait sous Debian 13 au lieu de Debian 12, comme le supposait le support de cours. Plusieurs outils annoncés comme préinstallés (rsyslog, auditd, Lynis) étaient absents : je les ai installés à la main et j’ai documenté chaque difficulté dans le rapport.</p>
+          <h4>Ce que j’ai réalisé</h4>
+          <ul class="list">
+            <li><strong>Journal persistant et centralisé.</strong> Journaux conservés sur disque, <code>web01</code> configuré en collecteur avec rsyslog, et une règle de pare-feu nftables qui n’ouvre le port 514 qu’à <code>web02</code>, la politique par défaut restant le refus. Message de test reçu : centralisation opérationnelle.</li>
+            <li><strong>Surveillance ciblée avec auditd.</strong> Règle sur le fichier des comptes (<code>/etc/passwd</code>), puis création et suppression volontaires d’un compte de test pour vérifier que l’événement est bien capturé.</li>
+            <li><strong>Reconstitution d’une intrusion.</strong> À partir d’un journal d’authentification fourni par le formateur, scellé par une empreinte SHA-256 avant toute analyse.</li>
+            <li><strong>Indicateurs de compromission et remédiation</strong>, dans l’ordre de priorité.</li>
+            <li><strong>Audit Lynis</strong> du serveur : indice de durcissement relevé et constats triés.</li>
+          </ul>
+          <div class="kf">
+            <div><b>180</b><span>échecs d’authentification repérés</span></div>
+            <div><b>24 min</b><span>de force brute avant la compromission</span></div>
+            <div><b>64 / 100</b><span>indice de durcissement Lynis</span></div>
+            <div><b>5 / 5</b><span>consignes du TP couvertes</span></div>
+          </div>
+          <h4>L’intrusion reconstituée</h4>
+          <p>Le fichier ne contient que deux adresses : une interne, légitime, et une externe. Sur cinq connexions acceptées, quatre se font par clé publique depuis l’adresse interne, ce qui correspond à l’activité d’un administrateur. La cinquième, la seule par mot de passe, vient de l’adresse externe : c’est la compromission.</p>
+          <div class="tbl-w">
+            <table class="tbl">
+              <thead><tr><th>Heure</th><th>Événement</th><th>Interprétation</th></tr></thead>
+              <tbody>
+                <tr><td>02:14 – 02:38</td><td>180 tentatives échouées depuis l’adresse externe, sur des comptes génériques (admin, root, oracle, postgres, test, ubuntu…)</td><td>Force brute par dictionnaire, <code>admin</code> visé en priorité (54 essais)</td></tr>
+                <tr><td>02:41:07</td><td>Connexion acceptée par mot de passe sur <code>admin</code></td><td class="sev-c">Compromission réussie</td></tr>
+                <tr><td>02:41:47</td><td>Installation de <code>netcat-traditional</code></td><td>Outil pouvant servir de shell distant ou d’exfiltration</td></tr>
+                <tr><td>02:42:42</td><td>Création du compte <code>sysbackup</code> avec les droits root, sans dossier personnel</td><td class="sev-c">Porte dérobée au nom trompeur</td></tr>
+                <tr><td>02:43:37</td><td>Mot de passe défini pour <code>sysbackup</code></td><td>Le compte caché devient utilisable</td></tr>
+                <tr><td>02:44:17</td><td>Désactivation du service <code>auditd</code></td><td class="sev-w">Effacement des traces futures</td></tr>
+                <tr><td>02:45:27</td><td>Tâche cron root exécutant un script caché dans <code>/tmp</code></td><td class="sev-c">Persistance</td></tr>
+                <tr><td>02:46:07</td><td>Déconnexion volontaire</td><td>Accès laissés en place pour un usage ultérieur</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>Constat : une attaque par force brute de 24 minutes depuis une seule adresse externe aboutit à la compromission du compte, suivie de quatre actions typiques d’une prise de contrôle durable. Les connexions par clé relevées plus tard dans la journée ne sont pas rattachables à l’attaquant, mais elles montrent qu’un administrateur légitime a continué à utiliser le système sans que la compromission soit détectée.</p>
+          <h4>Indicateurs de compromission</h4>
+          <div class="tbl-w">
+            <table class="tbl">
+              <thead><tr><th>Indicateur</th><th>Valeur relevée</th></tr></thead>
+              <tbody>
+                <tr><td>Adresse attaquante</td><td>203.0.113.66</td></tr>
+                <tr><td>Compte compromis</td><td><code>admin</code> (mot de passe faible, deviné par force brute)</td></tr>
+                <tr><td>Porte dérobée</td><td><code>sysbackup</code> : UID 0, GID 0, sans dossier personnel</td></tr>
+                <tr><td>Persistance</td><td>Tâche cron root vers un script caché dans <code>/tmp</code></td></tr>
+                <tr><td>Sabotage</td><td>Service <code>auditd</code> arrêté et désactivé</td></tr>
+                <tr><td>Outil déployé</td><td><code>netcat-traditional</code></td></tr>
+                <tr><td>Fenêtre d’activité</td><td>Force brute 02:14 – 02:38, compromission et actions 02:41 – 02:46</td></tr>
+                <tr><td>Empreinte SHA-256 de la preuve</td><td><code class="hash">c0fd8a7a7bf729b630800da5abb87b70338fe6688f55e7e92afdca6eb282af2b</code></td></tr>
+              </tbody>
+            </table>
+          </div>
+          <h4>Remédiation et priorités</h4>
+          <ol class="list">
+            <li><strong>Traiter l’intrusion en premier :</strong> réinitialiser le mot de passe de <code>admin</code> et basculer vers l’authentification par clé exclusivement, supprimer <code>sysbackup</code>, retirer la tâche cron et le contenu du dossier caché, réactiver <code>auditd</code>.</li>
+            <li><strong>Prévenir la récidive :</strong> déployer <code>fail2ban</code>, qui bloque une adresse après quelques échecs. Il aurait coupé cette attaque bien avant la 180<sup>e</sup> tentative.</li>
+            <li><strong>Traiter ensuite le constat Lynis :</strong> l’unique avertissement exploitable concerne des paquets vulnérables, donc la gestion des correctifs.</li>
+          </ol>
+          <h4>Captures d’écran</h4>
+          <p>Extraites de mon rapport de TP. Un clic ouvre l’image en grand.</p>
+          <div class="shots">
+            <figure><a href="audit-scellement-sha256.webp" target="_blank" rel="noopener"><img src="audit-scellement-sha256.webp" width="1106" height="139" loading="lazy" decoding="async" alt="Terminal : fichier de journaux de 35043 octets et son empreinte SHA-256 calculée avant analyse"></a><figcaption>Preuve scellée par empreinte SHA-256 avant toute analyse</figcaption></figure>
+            <figure><a href="audit-echecs-connexion.webp" target="_blank" rel="noopener"><img src="audit-echecs-connexion.webp" width="1105" height="197" loading="lazy" decoding="async" alt="Terminal : 180 échecs d’authentification et cinq connexions acceptées dont une seule par mot de passe"></a><figcaption>180 échecs d’authentification, 5 connexions acceptées dont une seule par mot de passe</figcaption></figure>
+            <figure><a href="audit-chronologie-intrusion.webp" target="_blank" rel="noopener"><img src="audit-chronologie-intrusion.webp" width="1091" height="439" loading="lazy" decoding="async" alt="Terminal : les quinze lignes qui suivent la connexion acceptée montrent la création d’un compte caché et l’arrêt d’auditd"></a><figcaption>Les actions menées par l’attaquant après l’accès réussi</figcaption></figure>
+            <figure><a href="audit-lynis-score.webp" target="_blank" rel="noopener"><img src="audit-lynis-score.webp" width="1109" height="231" loading="lazy" decoding="async" alt="Terminal : indice de durcissement Lynis de 64 sur 100"></a><figcaption>Audit Lynis : indice de durcissement de 64 sur 100</figcaption></figure>
+          </div>
+          <h4>Difficultés rencontrées</h4>
+          <ul class="list">
+            <li>Dossier de configuration rsyslog absent : le paquet n’était pas installé sur l’image. Installé à la main, d’abord sur <code>web02</code>, puis sur <code>web01</code> pour son rôle de collecteur.</li>
+            <li>« Connection refused » à l’envoi des journaux : <code>web01</code> n’était pas encore configuré en collecteur. J’ai fait les étapes dans le bon ordre, puis redémarré rsyslog sur <code>web02</code>.</li>
+            <li><code>auditctl</code> introuvable : paquet <code>auditd</code> non installé. Installé et activé au démarrage.</li>
+          </ul>
+          <h4>Résultat</h4>
+          <p class="res">Les cinq consignes du TP sont couvertes : journalisation centralisée, surveillance ciblée, intrusion reconstituée, indicateurs relevés avec preuve scellée, audit Lynis.</p>
+          <h4>Outils</h4>
+          <ul class="chips"><li>journald</li><li>rsyslog</li><li>auditd</li><li>Lynis</li><li>nftables</li><li>sha256sum</li><li>Vagrant</li><li>Debian</li></ul>
         </div>
       </article>
 
@@ -1018,18 +1319,18 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border);color:var(--muted)
     <h2>Compétences techniques</h2>
     <p class="sec-lead">Uniquement ce que j’ai réellement utilisé, en stage ou dans mes projets.</p>
     <div class="skills">
+      <div class="skill" data-reveal><h3>GRC, risques et conformité</h3>
+        <ul class="chips"><li>Analyse de menaces</li><li>OWASP Top 10 (2021 et 2025)</li><li>RGPD</li><li>NIST SP 800-63B</li><li>Recommandations CNIL</li><li>Audit de configuration (Lynis)</li><li>Gestion des accès et séparation des rôles</li><li>Traçabilité et intégrité des journaux</li><li>Preuves scellées (SHA-256)</li><li>Rapports de préconisations</li><li>Documentation et procédures</li></ul></div>
       <div class="skill" data-reveal><h3>SOC et détection</h3>
-        <ul class="chips"><li>SIEM (mini-SIEM conçu)</li><li>Wazuh</li><li>Suricata (IDS/IPS)</li><li>Règles personnalisées</li><li>Analyse de logs</li><li>Qualification d’alertes</li><li>Détection du brute-force</li><li>Traitement d’incidents</li></ul></div>
+        <ul class="chips"><li>SIEM (mini-SIEM conçu)</li><li>Wazuh</li><li>Suricata (IDS/IPS)</li><li>Règles personnalisées</li><li>Analyse de logs</li><li>auditd et rsyslog</li><li>Qualification d’alertes</li><li>Détection du brute-force</li><li>Investigation d’intrusion</li><li>Traitement d’incidents</li></ul></div>
       <div class="skill" data-reveal><h3>Réseau</h3>
         <ul class="chips"><li>Wireshark</li><li>tshark</li><li>Nmap</li><li>nftables</li><li>Segmentation</li><li>VLAN</li><li>OpenVPN</li><li>IPsec IKEv2</li><li>WPA2/WPA3-SAE</li><li>SYN flood</li><li>ARP spoofing</li><li>TCP/IP</li><li>DNS</li><li>DHCP</li><li>Routage</li></ul></div>
       <div class="skill" data-reveal><h3>Systèmes et IAM</h3>
         <ul class="chips"><li>Windows Server</li><li>Active Directory</li><li>GPO</li><li>Linux (Debian)</li><li>Comptes et droits</li><li>Durcissement</li><li>Gestion des vulnérabilités</li><li>Correctifs</li></ul></div>
       <div class="skill" data-reveal><h3>Sécurité applicative</h3>
-        <ul class="chips"><li>OWASP Top 10</li><li>RGPD</li><li>Argon2id</li><li>JWT</li><li>TOTP (2FA/MFA)</li><li>RBAC</li><li>AES-256</li><li>TLS</li><li>OpenSSL</li><li>Kali Linux</li></ul></div>
-      <div class="skill" data-reveal><h3>Cloud et outils</h3>
-        <ul class="chips"><li>Docker</li><li>Nginx</li><li>Vagrant</li><li>VirtualBox</li><li>Git / GitHub</li><li>Azure (notions)</li><li>AWS (notions)</li></ul></div>
-      <div class="skill" data-reveal><h3>Langages</h3>
-        <ul class="chips"><li>Python (FastAPI)</li><li>PowerShell</li><li>Bash</li><li>SQL (PostgreSQL, MySQL)</li></ul></div>
+        <ul class="chips"><li>OWASP Top 10</li><li>Argon2id</li><li>JWT</li><li>TOTP (2FA/MFA)</li><li>RBAC</li><li>AES-256</li><li>TLS</li><li>OpenSSL</li><li>Kali Linux</li></ul></div>
+      <div class="skill" data-reveal><h3>Outils et langages</h3>
+        <ul class="chips"><li>Docker</li><li>Nginx</li><li>Vagrant</li><li>VirtualBox</li><li>Git / GitHub</li><li>Azure (notions)</li><li>AWS (notions)</li><li>Python (FastAPI)</li><li>PowerShell</li><li>Bash</li><li>SQL (PostgreSQL, MySQL)</li></ul></div>
     </div>
     <div class="langs" data-reveal>
       <div><strong>Français</strong><br><span class="muted">Langue maternelle</span></div>
@@ -1038,19 +1339,100 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border);color:var(--muted)
   </div>
 </section>
 
+<section id="grc" class="panel" data-title="GRC">
+  <div class="container">
+    <h2>Gouvernance, risques et conformité</h2>
+    <p class="sec-lead">La GRC, c’est savoir ce qu’une organisation risque, décider de ce qu’elle protège, et pouvoir le prouver. C’est un versant du métier qui m’intéresse autant que la technique. Voici ce que j’ai déjà fait, à mon niveau d’étudiant, avec à chaque fois le projet où le retrouver.</p>
+
+    <div class="method" data-reveal>
+      <div class="step"><b>Identifier</b><span>Les menaces, ce qu’il faut protéger et les règles applicables</span></div>
+      <div class="step"><b>Traiter</b><span>Des mesures précises, reliées à chaque risque, dans un ordre de priorité</span></div>
+      <div class="step"><b>Prouver</b><span>Tests, captures, empreintes : chaque mesure est vérifiée</span></div>
+      <div class="step goal"><b>Documenter</b><span>Rapports, procédures, et ce qui reste non couvert</span></div>
+    </div>
+
+    <div class="grc-grid">
+      <article class="card grc-col" data-reveal>
+        <h3>Gouvernance</h3>
+        <p class="muted">Qui peut faire quoi, qui contrôle, et comment on le consigne.</p>
+        <ul class="grc-list">
+          <li><strong>Gestion des identités et des accès</strong>Chez Oreal-CAM, création, modification et suppression des comptes et des droits utilisateurs sur un réseau partagé entre plusieurs agences, avec rédaction de procédures.</li>
+          <li><strong>Séparation des rôles</strong>Dans CyberShield, cinq rôles dont les droits sont relus en base à chaque requête. Le rôle Auditeur lit les journaux et les alertes sans rien pouvoir modifier : consultation et remédiation sont séparées volontairement. Un administrateur ne peut pas désactiver son propre compte.</li>
+          <li><strong>Documentation et procédures</strong>Cahier des charges de douze pages, méthodologie de conception, rapport de soutenance, documentation technique des configurations chez CASANEDEN, rapports de TP avec une preuve par étape.</li>
+          <li><strong>Sensibilisation</strong>Sensibilisation des utilisateurs aux bonnes pratiques de cybersécurité pendant mon stage chez TotalEnergies Cameroun.</li>
+        </ul>
+        <div class="proofs"><span class="lab">Voir les fiches</span>
+          <button class="btn ghost sm" type="button" data-open="p-cybershield" data-title="CyberShield, plateforme de sécurité pour application web">CyberShield <svg class="i"><use href="#i-arrow"/></svg></button>
+          <button class="btn ghost sm" type="button" data-open="p-orealcam" data-title="Supervision et sécurité d’un réseau multi-agences">Oreal-CAM <svg class="i"><use href="#i-arrow"/></svg></button>
+        </div>
+      </article>
+
+      <article class="card grc-col" data-reveal>
+        <h3>Risques</h3>
+        <p class="muted">Repérer, hiérarchiser, traiter, et dire ce qui reste.</p>
+        <ul class="grc-list">
+          <li><strong>Analyse de menaces</strong>Dans CyberShield, onze menaces rattachées au Top 10 de l’OWASP (éditions 2021 et 2025), chacune avec sa réponse prévue. Règle de travail : chaque menace couverte par au moins un mécanisme, chaque mécanisme vérifié par un test ou une mesure.</li>
+          <li><strong>Registre des risques du projet</strong>Six risques identifiés dans le cahier des charges, avec la mitigation prévue puis, après coup, ce qui s’est réellement passé.</li>
+          <li><strong>Menace, protection, preuve</strong>Un tableau pour le laboratoire EmmaCorp (saturation, usurpation d’adresse, usurpation ARP, scan de ports, accès SSH non autorisé) et un autre pour le Wi-Fi (écoute, déconnexion forcée, vol du mot de passe, appareil piraté).</li>
+          <li><strong>Audit et priorisation</strong>Audit Lynis d’un serveur Debian (indice de durcissement de 64 sur 100), puis plan de correction ordonné : l’intrusion d’abord, les paquets vulnérables ensuite.</li>
+          <li><strong>Risque résiduel assumé</strong>Mes rapports disent ce qui n’est pas couvert : réglages perdus au redémarrage, isolation Wi-Fi configurée mais non testée, et, dans CyberShield, une détection par motifs qu’un encodage peut contourner.</li>
+        </ul>
+        <div class="proofs"><span class="lab">Voir les fiches</span>
+          <button class="btn ghost sm" type="button" data-open="p-emmacorp" data-title="Laboratoire de sécurité réseau EmmaCorp">EmmaCorp <svg class="i"><use href="#i-arrow"/></svg></button>
+          <button class="btn ghost sm" type="button" data-open="p-wifi" data-title="Sécurisation d’un réseau Wi-Fi, WPA2 puis WPA3">Wi-Fi <svg class="i"><use href="#i-arrow"/></svg></button>
+          <button class="btn ghost sm" type="button" data-open="p-audit" data-title="Journalisation, audit et investigation d’une intrusion SSH">Audit <svg class="i"><use href="#i-arrow"/></svg></button>
+        </div>
+      </article>
+
+      <article class="card grc-col" data-reveal>
+        <h3>Conformité</h3>
+        <p class="muted">Appliquer les règles, garder des traces fiables, signaler les écarts.</p>
+        <ul class="grc-list">
+          <li><strong>RGPD</strong>Règles du RGPD appliquées au site e-commerce Novara Shop pendant mon stage chez CASANEDEN, pour la protection des données personnelles.</li>
+          <li><strong>Minimisation des données</strong>Dans CyberShield, la détection d’injection n’enregistre que le nom du champ et du motif, jamais la valeur, afin qu’un mot de passe ne se retrouve pas dans les journaux.</li>
+          <li><strong>Traçabilité et intégrité</strong>Journal d’audit dont chaque entrée contient l’empreinte de la précédente (SHA-256), avec vérification d’intégrité. Il répond à la catégorie « journalisation et surveillance » de l’OWASP.</li>
+          <li><strong>Preuve sous scellés</strong>Dans le TP d’investigation, le fichier de journaux est scellé par une empreinte SHA-256 avant toute analyse, pour pouvoir démontrer qu’il n’a pas été altéré.</li>
+          <li><strong>Écarts repérés par moi-même</strong>Mon rapport CyberShield liste ce qui manque : pas de suppression de compte par l’utilisateur, pas de registre des traitements, avec la perspective d’une procédure d’effacement.</li>
+        </ul>
+        <div class="proofs"><span class="lab">Voir les fiches</span>
+          <button class="btn ghost sm" type="button" data-open="p-novara" data-title="Novara Shop, boutique e-commerce sécurisée">Novara Shop <svg class="i"><use href="#i-arrow"/></svg></button>
+          <button class="btn ghost sm" type="button" data-open="p-cybershield" data-title="CyberShield, plateforme de sécurité pour application web">CyberShield <svg class="i"><use href="#i-arrow"/></svg></button>
+          <button class="btn ghost sm" type="button" data-open="p-audit" data-title="Journalisation, audit et investigation d’une intrusion SSH">Audit <svg class="i"><use href="#i-arrow"/></svg></button>
+        </div>
+      </article>
+    </div>
+
+    <div class="refs" data-reveal>
+      <h3>Référentiels et textes que j’ai utilisés</h3>
+      <ul class="chips"><li>OWASP Top 10 (éditions 2021 et 2025)</li><li>OWASP Logging Cheat Sheet</li><li>NIST SP 800-63B (authentification et mots de passe)</li><li>NIST SP 800-38D (chiffrement AES-GCM)</li><li>Recommandations de la CNIL sur les mots de passe</li><li>RGPD</li></ul>
+    </div>
+
+    <div class="grc-team" data-reveal>
+      <h3>Ce que je peux apporter à une équipe GRC</h3>
+      <ul>
+        <li><strong>Cartographier les menaces d’un périmètre</strong>et les relier à des mesures que l’on peut vérifier.</li>
+        <li><strong>Auditer une configuration</strong>et proposer des corrections par ordre de priorité.</li>
+        <li><strong>Rédiger</strong>rapports de préconisations, procédures et documentation, avec les preuves associées.</li>
+        <li><strong>Appliquer des règles de conformité</strong>comme le RGPD sur un site, et signaler honnêtement ce qui manque encore.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
 <section id="projet-pro" class="panel" data-title="Projet pro">
   <div class="container">
     <h2>Mon projet professionnel</h2>
-    <p class="sec-lead">Je veux travailler côté défense : surveiller, détecter, réagir. Une alternance dans la cybersécurité et le réseau me permettrait d’apprendre sur de vrais environnements. Le travail d’un SOC, détecter et traiter des incidents, est ce qui m’attire le plus, mais je reste ouvert à d’autres métiers proches.</p>
+    <p class="sec-lead">Je vise un poste de consultant junior en cybersécurité, en alternance : un métier où l’on protège, mais où il faut aussi expliquer ses choix et les justifier. La défense (surveiller, détecter, réagir) m’attire, tout comme la gouvernance, les risques et la conformité. Je reste ouvert à d’autres métiers proches.</p>
     <div class="stepper" data-reveal>
       <div class="step"><b>Aujourd’hui</b><span>Master 1 Cybersécurité, Nexa Digital School (2026 – en cours)</span></div>
       <div class="step"><b>Début 2027</b><span>Examen de certification CCNA (Cisco)</span></div>
       <div class="step goal"><b>Objectif</b><span>Une alternance dans le domaine de la cybersécurité et du réseau, à raison de 3 semaines en entreprise pour 1 semaine en cours, ou de 2 semaines pour 1</span></div>
     </div>
     <div class="pro-grid">
-      <div class="card" data-reveal><h3>Détection et réponse</h3><p class="muted" style="margin:0">Qualifier des alertes, analyser des journaux, traiter des incidents. J’ai déjà pratiqué avec Suricata, Wazuh, Wireshark et un mini-SIEM.</p></div>
-      <div class="card" data-reveal><h3>Sécurité des infrastructures</h3><p class="muted" style="margin:0">Réseaux, systèmes et gestion des identités et des accès : pare-feu, VPN, Active Directory, durcissement de postes, correctifs.</p></div>
-      <div class="card" data-reveal><h3>Conditions</h3><p class="muted" style="margin:0">Disponible immédiatement, mobile et prêt à me déplacer peu importe la ville. Je suis aussi ouvert à l’administration systèmes et réseaux, ou au DevOps et au Cloud avec une dimension sécurité.</p></div>
+      <div class="card" data-reveal><h3>Conseil, risques et conformité</h3><p class="muted" style="margin:0">Cartographier les menaces, auditer une configuration, rédiger des recommandations priorisées et prouver ce qui est en place. Je l’ai fait à mon échelle : analyse de menaces de CyberShield, audit Lynis, rapports de préconisations, RGPD sur un site e-commerce.</p><a class="more" href="#grc">Voir ma démarche GRC →</a></div>
+      <div class="card" data-reveal><h3>Détection et réponse</h3><p class="muted" style="margin:0">Qualifier des alertes, analyser des journaux, reconstituer et traiter des incidents. J’ai déjà pratiqué avec Suricata, Wazuh, Wireshark, auditd et un mini-SIEM.</p></div>
+      <div class="card" data-reveal><h3>Sécurité des infrastructures</h3><p class="muted" style="margin:0">Réseaux, systèmes et gestion des identités et des accès : pare-feu, VPN, Wi-Fi WPA3, Active Directory, durcissement de postes, correctifs.</p></div>
+      <div class="card" data-reveal><h3>Conditions</h3><p class="muted" style="margin:0">Disponible immédiatement, mobile et prêt à me déplacer peu importe la ville. J’ai le permis et ma propre voiture : je me rends sans difficulté sur mon lieu de travail. Je suis aussi ouvert à l’administration systèmes et réseaux, ou au DevOps et au Cloud avec une dimension sécurité.</p></div>
     </div>
   </div>
 </section>
@@ -1125,15 +1507,17 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border);color:var(--muted)
     <div class="contact-grid">
       <div data-reveal>
         <h2>Me contacter</h2>
-        <p class="sec-lead" style="margin-bottom:24px">Une offre d’alternance, une question sur l’un de mes projets, l’envie d’en savoir plus : écrivez-moi, je réponds volontiers et je serai content d’en discuter.</p>
-        <p class="mail-line"><a class="mailto" href="mailto:borellontsi21@gmail.com">borellontsi21@gmail.com</a><button class="copy" id="copy-mail" type="button"><svg class="i"><use href="#i-copy"/></svg>Copier l’adresse</button></p>
+        <p class="sec-lead" style="margin-bottom:24px">Une offre d’alternance, une question sur l’un de mes projets, l’envie d’en savoir plus : écrivez-moi ou appelez-moi, je réponds volontiers et je serai content d’en discuter.</p>
+        <p class="mail-line"><a class="mailto" href="mailto:borellontsi21@gmail.com">borellontsi21@gmail.com</a><button class="copy" id="copy-mail" type="button" data-copy="borellontsi21@gmail.com" data-ok="Adresse copiée."><svg class="i"><use href="#i-copy"/></svg>Copier l’adresse</button></p>
+        <p class="mail-line"><a class="mailto" href="tel:+33695504093" id="tel-link">+33 6 95 50 40 93</a><button class="copy" id="copy-tel" type="button" data-copy="+33695504093" data-ok="Numéro copié."><svg class="i"><use href="#i-copy"/></svg>Copier le numéro</button></p>
         <p class="status" id="copy-status" role="status"></p>
         <div class="cta">
           <a class="btn ghost" href="https://www.linkedin.com/in/borel-lontsi-2510363a6" target="_blank" rel="noopener noreferrer"><svg class="i"><use href="#i-link"/></svg> LinkedIn</a>
           <a class="btn ghost" href="https://github.com/borel-lontsi" target="_blank" rel="noopener noreferrer"><svg class="i"><use href="#i-code"/></svg> GitHub</a>
-          <a class="btn ghost cv-btn" href="cv-borel-lontsi.pdf" download hidden><svg class="i"><use href="#i-download"/></svg> Télécharger mon CV</a>
+          <a class="btn ghost cv-btn" href="cv-borel-lontsi.pdf" download="CV_Borel_Nghopong_Lontsi.pdf" hidden><svg class="i"><use href="#i-download"/></svg> Télécharger mon CV</a>
         </div>
         <p class="avail"><span class="dot" aria-hidden="true"></span>Disponible immédiatement · Mobile, peu importe la ville</p>
+        <p class="muted" style="margin:14px 0 0">J’ai le permis et ma propre voiture : je me rends sans difficulté sur mon lieu de travail, où qu’il soit.</p>
       </div>
       <form class="card mform" id="mform" data-reveal novalidate>
         <h3>Écrire un message</h3>
@@ -1170,7 +1554,6 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border);color:var(--muted)
   var reduce=!!(window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches);
   var MAIL='borellontsi21@gmail.com';
 
-  /* Thème */
   function setMeta(t){var m=document.querySelector('meta[name="theme-color"]'); if(m){m.setAttribute('content',t==='light'?'#fbf8f3':'#0a0a0b')}}
   setMeta(root.getAttribute('data-theme'));
   document.getElementById('theme').addEventListener('click',function(){
@@ -1180,10 +1563,8 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border);color:var(--muted)
     setMeta(t);
   });
 
-  /* Fiches projet (déclarées tôt : utilisées par le clavier et le balayage) */
   var dlg=document.getElementById('pd'), body=document.getElementById('pd-body'), ttl=document.getElementById('pd-title'), lastBtn=null;
 
-  /* Rubriques : un panneau visible à la fois, on passe de l'un à l'autre horizontalement */
   var panels=[].slice.call(document.querySelectorAll('.panel'));
   var navLinks=[].slice.call(document.querySelectorAll('.nav a'));
   var nav=document.getElementById('nav'), live=document.getElementById('live');
@@ -1218,7 +1599,7 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border);color:var(--muted)
       if(!first&&!reduce){r.p.classList.add(dir)}
       cur=idx; updateNav(r.p);
       var t=r.p.getAttribute('data-title');
-      document.title=idx===0?NAME+' · Cybersécurité et réseau':t+' · '+NAME;
+      document.title=idx===0?NAME+' · Consultant junior en cybersécurité':t+' · '+NAME;
       if(live){live.textContent='Rubrique : '+t}
       if(!first){window.scrollTo(0,0)}
     }
@@ -1243,7 +1624,6 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border);color:var(--muted)
   window.addEventListener('popstate',function(){show((location.hash||'#accueil').slice(1))});
   window.addEventListener('hashchange',function(){show((location.hash||'#accueil').slice(1))});
 
-  /* Boutons précédent / suivant en bas de chaque rubrique */
   panels.forEach(function(p,i){
     var prev=panels[i-1], next=panels[i+1], box=p.querySelector('.container'); if(!box)return;
     var n=document.createElement('nav'); n.className='pager'; n.setAttribute('aria-label','Changer de rubrique');
@@ -1254,7 +1634,6 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border);color:var(--muted)
     n.innerHTML=h; box.appendChild(n);
   });
 
-  /* Clavier : flèches gauche et droite */
   document.addEventListener('keydown',function(e){
     if(e.defaultPrevented||e.altKey||e.ctrlKey||e.metaKey||e.shiftKey)return;
     if(e.key!=='ArrowLeft'&&e.key!=='ArrowRight')return;
@@ -1266,7 +1645,6 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border);color:var(--muted)
     e.preventDefault(); go(panels[j].id);
   });
 
-  /* Balayage tactile (sauf dans les zones qui défilent latéralement, les champs et la fiche ouverte) */
   var tx=0,ty=0,tt=0,tracking=false;
   function blocked(el){
     while(el&&el!==document.body){
@@ -1289,14 +1667,12 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border);color:var(--muted)
     go(panels[j].id);
   },{passive:true});
 
-  /* Apparition douce du contenu */
   var items=[].slice.call(document.querySelectorAll('[data-reveal]'));
   if('IntersectionObserver' in window){
     var io=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target)}})},{threshold:.06,rootMargin:'0px 0px -4% 0px'});
     items.forEach(function(el){io.observe(el)});
   }else{items.forEach(function(el){el.classList.add('in')})}
 
-  /* Projets : filtres et recherche (la recherche porte aussi sur le contenu des fiches) */
   var fbtn=[].slice.call(document.querySelectorAll('.filters button'));
   var cards=[].slice.call(document.querySelectorAll('.proj'));
   var q=document.getElementById('psearch'), cnt=document.getElementById('pcount'), emp=document.getElementById('pempty');
@@ -1319,7 +1695,6 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border);color:var(--muted)
   })});
   q.addEventListener('input',applyFilter);
 
-  /* Fiches projet */
   function openDlg(btn){
     var src=document.getElementById(btn.getAttribute('data-open')); if(!src)return;
     lastBtn=btn; ttl.textContent=btn.getAttribute('data-title')||''; body.innerHTML=src.innerHTML; dlg.scrollTop=0;
@@ -1332,19 +1707,20 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border);color:var(--muted)
   document.getElementById('pd-close').addEventListener('click',closeDlg);
   [].slice.call(document.querySelectorAll('[data-open]')).forEach(function(b){b.addEventListener('click',function(){openDlg(b)})});
 
-  /* Contact : copier l'adresse */
-  var copyBtn=document.getElementById('copy-mail'), cstat=document.getElementById('copy-status');
-  function say(m){cstat.textContent=m;setTimeout(function(){cstat.textContent=''},3000)}
-  function legacyCopy(){
-    var ta=document.createElement('textarea'); ta.value=MAIL; ta.setAttribute('readonly',''); ta.style.cssText='position:fixed;opacity:0;top:0;left:0';
-    document.body.appendChild(ta); ta.select(); var ok=false; try{ok=document.execCommand('copy')}catch(e){}
-    document.body.removeChild(ta); say(ok?'Adresse copiée.':'Copie impossible : sélectionnez l’adresse à la main.');
+  var cstat=document.getElementById('copy-status'), cTimer=null;
+  function say(m){cstat.textContent=m;clearTimeout(cTimer);cTimer=setTimeout(function(){cstat.textContent=''},3000)}
+  function legacyCopy(text,ok){
+    var ta=document.createElement('textarea'); ta.value=text; ta.setAttribute('readonly',''); ta.style.cssText='position:fixed;opacity:0;top:0;left:0';
+    document.body.appendChild(ta); ta.select(); var done=false; try{done=document.execCommand('copy')}catch(e){}
+    document.body.removeChild(ta); say(done?ok:'Copie impossible : sélectionnez le texte à la main.');
   }
-  copyBtn.addEventListener('click',function(){
-    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(MAIL).then(function(){say('Adresse copiée.')},legacyCopy)}else{legacyCopy()}
+  [].slice.call(document.querySelectorAll('.copy[data-copy]')).forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var text=btn.getAttribute('data-copy'), ok=btn.getAttribute('data-ok')||'Copié.';
+      if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(text).then(function(){say(ok)},function(){legacyCopy(text,ok)})}else{legacyCopy(text,ok)}
+    });
   });
 
-  /* Contact : prépare un e-mail dans la messagerie du visiteur (rien ne passe par le site) */
   var form=document.getElementById('mform');
   form.addEventListener('submit',function(e){
     e.preventDefault();
@@ -1360,17 +1736,30 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border);color:var(--muted)
     window.location.href=url;
   });
 
-  /* CV : le bouton n'apparaît que si le fichier cv-borel-lontsi.pdf existe à côté de index.html */
   var cv=[].slice.call(document.querySelectorAll('.cv-btn'));
   if(cv.length&&window.fetch&&/^https?:$/.test(location.protocol)){
-    fetch(cv[0].getAttribute('href'),{method:'HEAD',cache:'no-store'}).then(function(r){
-      if(r.ok){cv.forEach(function(a){a.hidden=false})}
+    fetch('cv-borel-lontsi.pdf',{method:'HEAD',cache:'no-store'}).then(function(r){
+      if(r.ok){cv.forEach(function(a){a.setAttribute('href','cv-borel-lontsi.pdf?v='+Math.floor(Date.now()/60000));a.hidden=false})}
     }).catch(function(){});
   }
 
-  /* Rubrique de départ */
   var start=(location.hash||'').slice(1);
   if(!show(start||'accueil')){show('accueil')}
+})();
+</script>
+<script>
+(function(){
+  var prog=document.getElementById('prog');
+  function upd(){
+    if(!prog)return;
+    var d=document.documentElement, m=d.scrollHeight-window.innerHeight;
+    prog.style.transform='scaleX('+(m>0?Math.min(1,Math.max(0,window.scrollY/m)):0)+')';
+  }
+  window.addEventListener('scroll',upd,{passive:true});
+  window.addEventListener('resize',upd);
+  window.addEventListener('hashchange',function(){setTimeout(upd,120)});
+  window.addEventListener('popstate',function(){setTimeout(upd,120)});
+  setTimeout(upd,300);
 })();
 </script>
 </body>
