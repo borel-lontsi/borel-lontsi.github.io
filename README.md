@@ -4,15 +4,17 @@ Site personnel présentant mon parcours, mes expériences, mes projets technique
 
 **Adresse du site :** https://borel-lontsi.github.io
 
+Je recherche une alternance dans le domaine de la cybersécurité et du réseau (3 semaines en entreprise et 1 semaine en cours, ou 2 semaines en entreprise et 1 semaine en cours). Je suis mobile et prêt à me déplacer, peu importe la ville.
+
 ## Contenu du dépôt
 
 - `index.html` : le site complet (HTML, CSS et JavaScript dans un seul fichier, sans dépendance externe)
-- `images/` : ma photo de profil (`portrait.jpg`) et les captures d'écran du projet CyberShield (extraites du rapport de soutenance, comptes de démonstration uniquement)
+- `portrait.jpg` et `cybershield-*.webp` : ma photo de profil et les captures d'écran du projet CyberShield (extraites du rapport de soutenance, comptes de démonstration uniquement)
 - `README.md` : cette présentation
 
 ## Technique
 
-Site statique hébergé sur GitHub Pages. Il propose un thème clair et sombre, une navigation adaptée au mobile, un filtre de projets et des fiches détaillées avec schémas d'architecture et captures d'écran.
+Site statique hébergé sur GitHub Pages. Il s'ouvre en thème sombre, avec un bouton pour passer au thème clair. Les rubriques se succèdent horizontalement (onglets, boutons précédent et suivant, flèches du clavier, balayage sur mobile). Il propose aussi un filtre et une recherche dans les projets, des fiches détaillées avec schémas et captures d'écran, et un formulaire qui prépare un e-mail dans la messagerie du visiteur.
 
 ## Contact
 
